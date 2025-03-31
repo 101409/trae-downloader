@@ -2,28 +2,28 @@
 
 This script installs the Trae.ai IDE for you without you needing to visit the site.
 
-1. Clone the Repository
+Clone the Repository
 git clone https://github.com/101409/trae-downloader.git
 cd trae-downloader
 
-2. Running Without a Virtual Environment
-Ensure Python (3.6+) is installed and then install dependencies globally:
-pip install requests colorama
+Running Without a Virtual Environment
+  Ensure Python (3.6+) is installed and then install dependencies globally:
+  pip install requests colorama
 
 Run the script:
-python download_trae.py
+  python download_trae.py
 
-4. Running Within a Virtual Environment
+Running Within a Virtual Environment
 For Windows
-python -m venv venv
-venv\Scripts\activate
+  python -m venv venv
+  venv\Scripts\activate
 
-pip install requests colorama
-python download_trae.py
+  pip install requests colorama
+  python download_trae.py
 
 For macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
+  python3 -m venv venv
+  source venv/bin/activate
 
-pip install requests colorama
-python download_trae.py
+  pip install requests colorama
+  python download_trae.py
