@@ -20,16 +20,16 @@ pip install requests colorama
 ```
 Run the script:
 ```sh
-python download_trae.py
+python trae.py
 ```
 
 ### 3. Running in a Virtual Environment
 Windows
 ```sh
 python -m venv venv
-venv\Scripts\activate
+.\venv\Scripts\activate
 pip install requests colorama
-python download_trae.py
+python trae.py
 ```
 
 MacOS
@@ -37,7 +37,7 @@ MacOS
 python3 -m venv venv
 source venv/bin/activate
 pip install requests colorama
-python download_trae.py
+python trae.py
 ```
 
 ## Notes
